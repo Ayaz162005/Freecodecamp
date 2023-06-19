@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="header">
+<h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+
+</div>
+
+<form action="" id="survey-form">
+
+<div class="choose">
+<label id="name-label" class="label" for="name">Name </label> 
+<input class="input" type="text" name="name" id="name" placeholder="Enter your name" required>
+
+</div>
+
+
+<div class="choose">
+   <label id="email-label" class="label" for="email">Email</label> 
+    <input class="input" type="email" name="email" id="email" placeholder="Enter your Email" required>
+        
+      </div>
+<div class="choose">
+    <label id="number-label" class="label" for="number" id="age">Age <span>(optional)</span></label> 
+    <input class="input" type="number" name="number" id="number" placeholder="Age" required min="10" max="99">
+        
+    </div>                       
+<div class="choose">
+ <p class="p22">Which option best describes your current role?</p>
+        <select name="dropdown" id="dropdown" required class="select">
+<option value="disabled selected value">Select current role</option>
+<option value="student">Student</option>
+<option value="job">Full time Job</option>
+<option value="learner"> Full Time Learner</option>
+<option value="preferNo">Prefer not to say</option>
+<option value="other">Other</option>
+
+
+
+
+        </select>
+    </div>
+
+<div>
+<p class="p22">Would you recommend freeCodeCamp to a friend?</p>
+
+<label class="label1" for="r1"><input class="radio" type="radio" name="r" id="r1" checked value="Definitely"> Definitely</label> <br>
+<label class="label1" for="r2"><input class="radio" type="radio" name="r" id="r2" value="Maybe"> Maybe</label> <br>
+ <label class="label1" for="r3"><input class="radio" type="radio" name="r" id="r3" value="Not sure">Not sure</label> <br>
+
+
+</div>
+
+<div class="choose">
+    <p class="p22">What is your favorite feature of freeCodeCamp?</p>
+           <select name="dropdown" id="dropdown" required class="select">
+   <option value="disabled selected value">Select an option</option>
+   <option value="Challenges">Challenges</option>
+   <option value="Projects">Projects</option>
+   <option value="Community"> Community</option>
+   <option value="Open source">Open source</option>
+   
+   
+   
+   
+   
+           </select>
+       </div>
+
+<div>
+<p class="p22">What would you like to see improved?</p> 
+
+<label class="label1" for="c1">  <input class="checkbox" type="checkbox" name="checkbox" id="c1" value="1">    Front-end Projects    </label>
+<label class="label1"for="c2">  <input class="checkbox"type="checkbox" name="checkbox" id="c2"value="1">   Back-end Projects     </label>
+<label class="label1"for="c3">  <input class="checkbox"type="checkbox" name="checkbox" id="c3"value="1">  Data Visualization      </label>
+<label class="label1"for="c4">  <input class="checkbox"type="checkbox" name="checkbox" id="c4"value="1"> Challenges       </label>
+<label class="label1"for="c5">  <input class="checkbox"type="checkbox" name="checkbox" id="c5"value="1">  Open Source Community      </label>
+<label class="label1"for="c6">  <input class="checkbox"type="checkbox" name="checkbox" id="c6"value="1">    Gitter help rooms    </label>
+<label class="label1"for="c7">  <input class="checkbox"type="checkbox" name="checkbox" id="c7"value="1">  Videos      </label>
+<label class="label1"for="c8">  <input class="checkbox"type="checkbox" name="checkbox" id="c8"value="1">   City Meetups     </label>
+<label class="label1"for="c9">  <input class="checkbox"type="checkbox" name="checkbox" id="c9"value="1">   Wiki     </label>
+<label class="label1"for="c10">  <input class="checkbox"type="checkbox" name="checkbox" id="c10"value="1">   Forum     </label>
+<label class="label1"for="c11">  <input class="checkbox"type="checkbox" name="checkbox" id="c11"value="1"> Additional Courses       </label>
+
+
+
+
+
+</div>
+
+<div>
+<p class="p22">Any comments or suggestions?</p>
+<textarea name="textarea" id="textarea" class="textarea"placeholder="Enter your comment here..."></textarea>
+
+
+
+
+
+
+
+</div>
+
+
+<input class="submit" type="submit" name="submit" id="submit">
+
+
+
+</div>
+
+
+
+
+
+
+
+</form>
+
+</body>
+</html>

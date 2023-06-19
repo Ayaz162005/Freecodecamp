@@ -1,0 +1,21 @@
+td,th{
+border: 2px solid red;
+
+
+
+}
+table{
+    border-collapse: collapse;
+    text-align: center ;
+}
+th{
+background-color: yellow;
+
+
+}
+label{
+    display: block;
+}
+p{
+    font-weight: bold;
+}
